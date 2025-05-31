@@ -68,7 +68,8 @@ h2 {
     padding: 1.5rem;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border: 1px solid #ddd;
 }
 
 h3 {
@@ -145,80 +146,5 @@ footer {
     .detail-item {
         box-shadow: none;
         border: 1px solid #ddd;
-    }
-}
-
-.photos {
-    text-align: center;
-    padding: 4rem 2rem;
-    background-color: #fff;
-}
-
-.photos h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 2rem;
-}
-
-.photo-card {
-    max-width: 600px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
-    border-radius: 15px;
-    padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.photo-card:hover {
-    transform: translateY(-5px);
-}
-
-.photo-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.photo-content p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    color: #555;
-    margin: 0;
-}
-
-.photo-link {
-    display: inline-block;
-    background-color: #4a90e2;
-    color: white;
-    padding: 1rem 2rem;
-    border-radius: 30px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    transition: background-color 0.3s ease;
-}
-
-.photo-link:hover {
-    background-color: #357abd;
-}
-
-@media (max-width: 768px) {
-    .photos {
-        padding: 3rem 1rem;
-    }
-    
-    .photos h2 {
-        font-size: 2rem;
-    }
-    
-    .photo-card {
-        padding: 1.5rem;
-    }
-    
-    .photo-content p {
-        font-size: 1.1rem;
     }
 } 
