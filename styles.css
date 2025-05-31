@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #34495e;
-    --accent-color: #e74c3c;
-    --text-color: #2c3e50;
-    --background-color: #f9f9f9;
+    --primary-color: #2b2a6a;
+    --secondary-color: #8b5c2a;
+    --accent-color: #e48b9c;
+    --text-color: #222;
+    --background-color: #faf7f2;
 }
 
 * {
@@ -35,13 +35,13 @@ header {
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin-bottom: 0.5rem;
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 300;
 }
 
@@ -89,7 +89,7 @@ h3 {
 }
 
 .map-link:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .message {
@@ -110,7 +110,7 @@ footer {
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     margin-top: 0.5rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 /* Mobile Responsive Design */
