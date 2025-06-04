@@ -147,4 +147,90 @@ footer {
         box-shadow: none;
         border: 1px solid #ddd;
     }
+}
+
+/* Guest Advice Section Styles */
+.guest-advice {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.guest-advice h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+.section-intro {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.questions-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.question-list {
+    list-style: none;
+    padding: 0;
+}
+
+.question-list li {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.question-list li:nth-child(odd) {
+    color: var(--primary-color);
+}
+
+.question-list li:nth-child(even) {
+    color: var(--secondary-color);
+}
+
+.question-list li:last-child {
+    margin-bottom: 0;
+}
+
+.question-list li::before {
+    content: "•";
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+/* Responsive styles for the questions section */
+@media (max-width: 768px) {
+    .guest-advice {
+        margin: 2rem 1rem;
+        padding: 1.5rem;
+    }
+
+    .questions-container {
+        padding: 1.5rem;
+    }
+
+    .question-list li {
+        font-size: 1rem;
+        padding-left: 1.2rem;
+    }
 } 
